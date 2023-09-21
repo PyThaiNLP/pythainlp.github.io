@@ -3,7 +3,7 @@ layout: post
 title: มาช่วยกันสร้างชุดข้อมูลบทสนทนาภาษาไทยสำหรับสอนแชทบอทที่เหมือน ChatGPT กัน!
 gh-repo: PyThaiNLP/Open-Assistant-Thailand
 gh-badge: [star, fork]
-tags: [news,dataset]
+categories: [news,dataset]
 comments: true
 ---
 

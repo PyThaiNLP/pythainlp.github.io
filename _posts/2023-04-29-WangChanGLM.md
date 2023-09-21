@@ -3,7 +3,7 @@ layout: post
 title: WangChanGLM Model Released!
 gh-repo: pythainlp/WangChanGLM
 gh-badge: [star, fork]
-tags: [news,models]
+categories: [news,models]
 comments: true
 ---
 

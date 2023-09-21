@@ -4,7 +4,7 @@ title: PyThaiNLP v3.0.0-beta0 released!
 subtitle: PyThaiNLP v3.0.0-beta0 is The first beta release of PyThaiNLP 3.0
 gh-repo: pythainlp/pythainlp
 gh-badge: [star, fork]
-tags: [news]
+categories: [news]
 comments: true
 ---
 

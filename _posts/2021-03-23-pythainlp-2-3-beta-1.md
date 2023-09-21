@@ -4,7 +4,7 @@ title: PyThaiNLP v2.3.0-beta1 Released!
 subtitle: PyThaiNLP v2.3.0-beta1 is The first beta release of PyThaiNLP 2.3
 gh-repo: pythainlp/pythainlp
 gh-badge: [star, fork]
-tags: [news]
+categories: [news]
 comments: true
 ---
 
