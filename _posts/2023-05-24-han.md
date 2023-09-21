@@ -1,0 +1,16 @@
+---
+layout: post
+title: Han-Coref Thai Coreference resolution by PyThaiNLP Released!
+gh-repo: pythainlp/Han-Coref
+gh-badge: [star, fork]
+tags: [news]
+comments: true
+---
+
+Han-Coref: Thai Coreference resolution by PyThaiNLP
+
+This project want to create Thai Coreference resolution system.
+
+This project is developed by 🪿 Wannaphong Phatthiyaphaibun.
+
+GitHub: [PyThaiNLP/han-coref](https://github.com/PyThaiNLP/han-coref)
