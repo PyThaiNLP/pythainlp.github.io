@@ -1,11 +1,9 @@
 ---
 layout: page
-title: About
+title: About PyThaiNLP
 permalink: /about/
 ---
 
-โครงการ PyThaiNLP เป็นโครงการซอฟต์แวร์เปิดด้านการประมวลผลภาษาไทย โดยมีชุดข้อมูล ซฟอต์แวร์ และโมเดลอยู่ภายใต้การดูแลของ PyThaiNLP จำนวนมากกว่า 25 โครงกาาร ([ดูรายชื่อโครงการได้ที่นี่](https://pythainlp.github.io/projects/))
-
-สำหรับโครงการหลักของเรา คือ ซอฟต์แวร์ PyThaiNLP เป็นไลบารีภาษาไพทอนสำหรับประมวลผลภาษาธรรมชาติ โดยเน้นภาษาไทย ปล่อยรุ่นแรก 0.0.4 อย่างเป็นทางการวันที่ 10 กรกฎาคม พ.ศ.2559 ([อ่านประวัติได้ที่นี่](https://github.com/PyThaiNLP/pythainlp/wiki/History))
+PyThaiNLP is a Python package for text processing and linguistic analysis, similar to NLTK with focus on Thai language.
 
 [WIP]
