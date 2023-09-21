@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: /
 ---
 
 Welcome to The Official PyThaiNLP Project Website.
