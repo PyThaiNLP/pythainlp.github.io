@@ -2,6 +2,7 @@
 layout: page
 title: PyThaiNLP Projects
 subtitle: All projects on PyThaiNLP GitHub
+permalink: /projects/
 ---
 
 All 25 projects
