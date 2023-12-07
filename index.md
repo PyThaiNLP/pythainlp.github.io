@@ -32,15 +32,15 @@ Please see [our tutorials](https://pythainlp.github.io/tutorials) on how to appl
 You can read at [INTHEWILD.md](https://github.com/PyThaiNLP/pythainlp/blob/dev/INTHEWILD.md).
 
 ## Development Lead
-- Wannaphong Phatthiyaphaibun - founder, distribution and maintainance
-- Korakot Chaovavanich - initial tokenization and soundex code
+- Wannaphong Phatthiyaphaibun - foundation, distribution and maintenance
+- Korakot Chaovavanich - initial tokenization and soundex codes
 - Charin Polpanumas - classification and benchmarking
-- Arthit Suriyawongkul - refactoring, packaging, distribution, and maintainance
-- Chakri Lowphansirikul - documentation
+- Arthit Suriyawongkul - refactoring, packaging, distribution, and maintenance
+- Lalita Lowphansirikul - documentation
 - Pattarawat Chormai - benchmarking
-- Thanathip Suntorntip - nlpO3 maintainance, Rust Developer
-- Can Udomcharoenchaikit - documentation and code
-
+- Peerat Limkonchotiwat
+- Thanathip Suntorntip - nlpO3 maintenance, Rust Developer
+- Can Udomcharoenchaikit - documentation and codes
 
 ## Sponsors
 
