@@ -45,7 +45,7 @@ Based on Typhoon-7B (https://huggingface.co/scb10x/typhoon-7b) tokenizer
 
 เราได้ใช้ pipeline สำหรับเทรน LLM ของเราด้วย [EasyLM project](https://github.com/young-geng/EasyLM) เป็นชุด pipeline ของ[โมเดล OpenLLaMA](https://github.com/openlm-research/open_llama)  เราได้ยืนขอการสนับสนุน TPU ผ่านโครงการ [TPU Research Cloud](https://sites.research.google/trc/about/) ของ Google และเราได้ใช้เครติดฟรีของ Googel Cloud สำหรับการทำ pretrained model  ทำให้เราไม่เสียค่าใช้จ่ายใด ๆ ในการเทรนโมเดลเลย
 
-เราได้ทำการเทรนโมเดลทั้งขนาด 1B กับ 3B บนชุดข้อมูลเดียวกัน โดยใช้สถาปัตยกรรม Llama 2
+เราได้ทำการเทรนโมเดลทั้งขนาด 1B กับ 3B บนชุดข้อมูลเดียวกัน โดยใช้สถาปัตยกรรม Llama 2 จำนวนแค่ 1 Epoch เพื่อไม่ให้ repeat
 
 สำหรับ pipeline ในการทำ pretrained model สามารถดูได้ที่ [https://github.com/wannaphong/EasyLM/tree/KhanomTanLLM-pretraining](https://github.com/wannaphong/EasyLM/tree/KhanomTanLLM-pretraining)
 
