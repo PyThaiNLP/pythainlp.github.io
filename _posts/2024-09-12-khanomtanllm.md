@@ -14,6 +14,8 @@ comments: true
 
 หลังจากที่ Phi model ออกมา ได้จุดประกายโมเดล LLM ที่มีขนาดน้อยกว่า 7B ในการใช้งานในโลกจริง แต่โมเดลที่มีขนาด 1B และ 3B ที่รองรับภาษาไทย ยังมีจำนวนน้อย ได้แก่ [gemma-2b](https://huggingface.co/google/gemma-2b), [Qwen2-1.5B](https://huggingface.co/Qwen/Qwen2-1.5B) และ [RWKV](https://huggingface.co/RWKV/) เป็นต้น แต่ทั้งหมดไม่ได้เปิดเผยชุดข้อมูลที่นำมาเทรนโมเดลเพื่อทำ pretrained model สู่สาธารณะ และ gemma-2b ไม่ได้ถูกนับว่าเป็น Open Source ด้วยเงื่อนไขในการใช้งานโมเดล ดังนั้น เราจึงเริ่มลงมือรวบรวมชุดข้อมูลภาษาไทย-ภาษาอังกฤษ เพื่อทำ Open Source LM ขนาดเล็กที่เราอยากได้
 
+GitHub KhanomTanLLM: [https://github.com/PyThaiNLP/KhanomTanLLM](https://github.com/PyThaiNLP/KhanomTanLLM)
+
 ## Dataset
 
 เราได้ทำการปล่อยชุดข้อมูลสำหรับการทำ Pretrained LLM ตัวนี้ไว้ที่
