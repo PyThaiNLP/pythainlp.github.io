@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "KhanomTanLLM: Open Source Thai LLM"
-gh-repo: pythainlp/pythainlp
+gh-repo: PyThaiNLP/KhanomTanLLM
 gh-badge: [star, fork]
 categories: [news]
 comments: true
@@ -10,9 +10,9 @@ comments: true
 ![](https://imgur.com/LpQmJqY.png)
 > Image gen from [FLUX.1 [dev]](https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev)
 
-วันนี้เรายินดีที่จะเปิดตัว KhanomTanLLM (ขนมตาล LLM) เป็น Open Source language model แรกของภาษาอังกฤษ-ภาษาไทย ที่เทรนด้วยชุดข้อมูลเปิด และปล่อยชุดข้อมูลที่ใช้เทรน LLM ทั้งหมด พร้อม pipeline ในการเทรน และโมเดลที่สามารถนำไปใช้งานในเชิงพาณิชย์ได้ นอกจากนั้นเรายังปล่อยโมเดลทั้งขนาด 1B กับ 3B ถือเป็น small lm ตัวแรกที่ออกแบบมาสำหรับ
+วันนี้เรายินดีที่จะเปิดตัว KhanomTanLLM (ขนมตาล LLM) เป็น Open Source language model แรกของภาษาอังกฤษ-ภาษาไทย ที่เทรนด้วยชุดข้อมูลเปิด และปล่อยชุดข้อมูลที่ใช้เทรน LLM ทั้งหมด พร้อม pipeline ในการเทรน และโมเดลที่สามารถนำไปใช้งานในเชิงพาณิชย์ได้ นอกจากนั้นเรายังปล่อยโมเดลทั้งขนาด 1B กับ 3B ถือเป็น small lm ตัวแรกที่เป็น Open Source ของภาษาไทยที่เปิดเผยทั้งชุดข้อมูลในการทำ pretrained, pipeline ในการทำ pretrained, และโมเดล
 
-หลังจากที่ Phi model ออกมา ได้จุดประกายโมเดล LLM ที่มีขนาดน้อยกว่า 7B ในการใช้งานในโลกจริง แต่โมเดลที่มีขนาด 1B และ 3B ที่รองรับภาษาไทย ยังมีจำนวนน้อย ได้แก่ [gemma-2b](https://huggingface.co/google/gemma-2b), [Qwen2-1.5B](https://huggingface.co/Qwen/Qwen2-1.5B) และ [RWKV](https://huggingface.co/RWKV/) เป็นต้น แต่ทั้งหมดไม่ได้เปิดเผยชุดข้อมูลที่นำมาเทรนโมเดลเพื่อทำ pretrained model สู่สาธารณะ และ gemma-2b ไม่ได้ถูกนับว่าเป็น Open Source ด้วยเงื่อนไขในการใช้งานโมเดล
+หลังจากที่ Phi model ออกมา ได้จุดประกายโมเดล LLM ที่มีขนาดน้อยกว่า 7B ในการใช้งานในโลกจริง แต่โมเดลที่มีขนาด 1B และ 3B ที่รองรับภาษาไทย ยังมีจำนวนน้อย ได้แก่ [gemma-2b](https://huggingface.co/google/gemma-2b), [Qwen2-1.5B](https://huggingface.co/Qwen/Qwen2-1.5B) และ [RWKV](https://huggingface.co/RWKV/) เป็นต้น แต่ทั้งหมดไม่ได้เปิดเผยชุดข้อมูลที่นำมาเทรนโมเดลเพื่อทำ pretrained model สู่สาธารณะ และ gemma-2b ไม่ได้ถูกนับว่าเป็น Open Source ด้วยเงื่อนไขในการใช้งานโมเดล ดังนั้น เราจึงเริ่มลงมือรวบรวมชุดข้อมูลภาษาไทย-ภาษาอังกฤษ เพื่อทำ Open Source LM ขนาดเล็กที่เราอยากได้
 
 ## Dataset
 
@@ -65,6 +65,6 @@ Instruct Models:
 
 หากคุณนำโมเดลไป eval จะพบว่าโมเดลมีประสิทธิภาพค่อนข้างต่ำในหลายชุดทดสอบ เพราะเราไม่มีทรัพยากรมากเพียงพอที่จะนำชุดข้อมูลขนาดใหญ่จากภาษาอังกฤษมาเทรนร่วมด้วย เช่น [FineWeb](https://huggingface.co/datasets/HuggingFaceFW/fineweb), [Dolma](allenai/dolma), [The Pile](EleutherAI/the_pile_deduplicated) เป็นต้น เราได้เทรน LLM ตัวนี้ด้วยชุดข้อมูลข้อความเพียง 53B tokens หากได้รับการเทรนขนาด >1T tokens น่าจะมีประสิทธิภาพมากยิ่งขึ้น นอกจากนี้ชุดข้อมูลภาษาไทยยังมีขนาดเล็กเกินไปสำหรับการเทรน LLM ให้มีที่มีประสิทธิภาพดี ทางแก้ที่ดีที่สุด คือ การปล่อยชุดข้อมูลออกสู่สาธารณะให้มากยิ่งขึ้น และแนวทางการสังเคราะห์ชุดข้อมูลอาจเป็นหนึ่งในแนวทางแก้ไขปัญหาได้
 
-เราหวังว่า ชุดข้อมูล pretrained, pipeline, และโมเดลที่เราปล่อยออกสู่สาธารณะจะเป็นประโยชน์ต่อผู้ที่สนใจทำ pretrained Thai LLM และช่วยส่งเสริมวงการ Open Source AI ในประเทศไทยมากยิ่งขึ้น
+สุดท้ายนี้ เราหวังว่า ชุดข้อมูล pretrained, pipeline, และโมเดลที่เราปล่อยออกสู่สาธารณะจะเป็นประโยชน์ต่อผู้ที่สนใจทำ pretrained Thai LLM และช่วยส่งเสริมวงการ Open Source AI ในประเทศไทยมากยิ่งขึ้น
 
 เขียนโดย วรรณพงษ์ ภัททิยไพบูลย์
