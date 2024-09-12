@@ -39,7 +39,7 @@ Based on Typhoon-7B (https://huggingface.co/scb10x/typhoon-7b) tokenizer
 
 ## Tokenizer
 
-เราตัดสินใจใช้ Tokenizer ของ Typhoon-7B (https://huggingface.co/scb10x/typhoon-7b) ในโมเดลของเรา เพื่อประหยัดทรัพยากรในการเทรน Tokenizer
+เราตัดสินใจใช้ Tokenizer ของ Typhoon-7B [https://huggingface.co/scb10x/typhoon-7b](https://huggingface.co/scb10x/typhoon-7b) ในโมเดลของเรา เพื่อประหยัดทรัพยากรในการเทรน Tokenizer
 
 ## Pretraining
 
