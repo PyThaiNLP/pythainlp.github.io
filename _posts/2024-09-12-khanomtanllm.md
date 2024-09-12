@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KhanomTanLLM: Open Source Thai LLM
+title: "KhanomTanLLM: Open Source Thai LLM"
 gh-repo: pythainlp/pythainlp
 gh-badge: [star, fork]
 categories: [news]
