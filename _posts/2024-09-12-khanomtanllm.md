@@ -63,6 +63,12 @@ Instruct Models:
 - 1B: [https://huggingface.co/pythainlp/KhanomTanLLM-1B-Instruct](https://huggingface.co/pythainlp/KhanomTanLLM-1B-Instruct)
 - 3B: [https://huggingface.co/pythainlp/KhanomTanLLM-3B-Instruct/](https://huggingface.co/pythainlp/KhanomTanLLM-3B-Instruct/)
 
+## Acknowledgements
+
+Research supported with Cloud TPUs from Google's [TPU Research Cloud](https://sites.research.google/trc/about/) (TRC). We use TPU4-64 for training model.
+
+Thank you [TPU Research Cloud](https://sites.research.google/trc/about/) and [EasyLM project](https://github.com/young-geng/EasyLM)! We use EasyLM for pretraining model.
+
 ## บทส่งท้าย
 
 หากคุณนำโมเดลไป eval จะพบว่าโมเดลมีประสิทธิภาพค่อนข้างต่ำในหลายชุดทดสอบ เพราะด้วยขนาดโมเดลที่มีแค่ 1B กับ 3B และเราไม่มีทรัพยากรมากเพียงพอที่จะนำชุดข้อมูลขนาดใหญ่จากภาษาอังกฤษมาเทรนร่วมด้วย เช่น [FineWeb](https://huggingface.co/datasets/HuggingFaceFW/fineweb), [Dolma](allenai/dolma), [The Pile](EleutherAI/the_pile_deduplicated) เป็นต้น เราได้เทรน LLM ตัวนี้ด้วยชุดข้อมูลข้อความเพียง 53B tokens หากได้รับการเทรนขนาด >1T tokens น่าจะมีประสิทธิภาพมากยิ่งขึ้น นอกจากนี้ชุดข้อมูลภาษาไทยยังมีขนาดเล็กเกินไปสำหรับการเทรน LLM ให้มีที่มีประสิทธิภาพดี ทางแก้ที่ดีที่สุด คือ การปล่อยชุดข้อมูลออกสู่สาธารณะให้มากยิ่งขึ้น, ขอความร่วมมือชุนชนในไทยในการสนับสนุนชุดข้อมูลเปิด และแนวทางการสังเคราะห์ชุดข้อมูลอาจเป็นหนึ่งในแนวทางแก้ไขปัญหาได้
