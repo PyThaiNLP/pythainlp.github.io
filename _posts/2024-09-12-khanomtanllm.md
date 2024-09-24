@@ -59,7 +59,7 @@ Pretrained Models:
 
 Instruct Models:
 - Instruct dataset: [wannaphong/KhanomTanLLM-Instruct-dataset](https://huggingface.co/datasets/wannaphong/KhanomTanLLM-Instruct-dataset)
-- SFT Script: [https://github.com/PyThaiNLP/KhanomTanLLM/tree/main/fineturning](https://github.com/PyThaiNLP/KhanomTanLLM/tree/main/fineturning)
+- SFT Script: [https://github.com/PyThaiNLP/KhanomTanLLM/tree/main/finetuning](https://github.com/PyThaiNLP/KhanomTanLLM/tree/main/finetuning)
 - 1B: [https://huggingface.co/pythainlp/KhanomTanLLM-1B-Instruct](https://huggingface.co/pythainlp/KhanomTanLLM-1B-Instruct)
 - 3B: [https://huggingface.co/pythainlp/KhanomTanLLM-3B-Instruct/](https://huggingface.co/pythainlp/KhanomTanLLM-3B-Instruct/)
 
