@@ -4,32 +4,14 @@ layout: default
 
 Welcome to The Official PyThaiNLP Project Website.
 
-The PyThaiNLP Project is a Thai Natural Language Processing project. We build softwares and datasets for Thai language. Our Main Project is PyThaiNLP.
+PyThaiNLP Project is an open source community for natural Language Processing project in the Thai language. We build softwares and datasets for Thai language. Our Main Project is PyThaiNLP that is a Python package for text processing and linguistic analysis on Thai language.
+
+See more about the projec: [pythainlp.org/about](https://pythainlp.org/about)
 
 **See all our project at [pythainlp.org/projects/](https://pythainlp.org/projects/)**
 
 **สำหรับภาษาไทย คุณสามารถเยี่ยมชมเว็บภาษาไทยของ PyThaiNLP ได้ที่ [pythainlp.org/th/](https://pythainlp.org/th/)**
 
-PyThaiNLP is a Python package for text processing and linguistic analysis, similar to nltk, with focus on Thai language.
-
-## PyThaiNLP Features
-- Convenient character and word classes, like Thai consonants (pythainlp.thai_consonants), vowels (pythainlp.thai_vowels), digits (pythainlp.thai_digits), and stop words (pythainlp.corpus.thai_stopwords) -- comparable to constants like string.letters, string.digits, and string.punctuation
-- Thai linguistic unit segmentation/tokenization, including sentence (sent_tokenize), word (word_tokenize), and subword segmentations based on Thai Character Cluster (subword_tokenize)
-- Thai part-of-speech tagging (pos_tag)
-- Thai spelling suggestion and correction (spell and correct)
-- Thai transliteration (transliterate)
-- Thai soundex (soundex) with three engines (lk82, udom83, metasound)
-- Thai collation (sort by dictionary order) (collate)
-- Read out number to Thai words (bahttext, num_to_thaiword)
-- Thai datetime formatting (thai_strftime)
-- Thai-English keyboard misswitched fix (eng_to_thai, thai_to_eng)
-- Command-line interface for basic functions, like tokenization and pos tagging (run thainlp in your shell)
-
-Please see [our tutorials](https://pythainlp.org/tutorials) on how to apply these functions to machine-learning problems.
-
-## Who uses PyThaiNLP?
-
-You can read at [INTHEWILD.md](https://github.com/PyThaiNLP/pythainlp/blob/dev/INTHEWILD.md).
 
 ## Development Lead
 - Wannaphong Phatthiyaphaibun - foundation, distribution and maintenance

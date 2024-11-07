@@ -7,6 +7,9 @@ permalink: /projects/
 
 All 25 projects
 
+Hugging Face: [https://huggingface.co/pythainlp](https://huggingface.co/pythainlp)
+
+
 ## AttaCut
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/PyThaiNLP/attacut/graphs/commit-activity)
