@@ -17,11 +17,11 @@ See more about the projec: [pythainlp.org/about](https://pythainlp.org/about)
 - Wannaphong Phatthiyaphaibun - foundation, distribution and maintenance
 - Korakot Chaovavanich - initial tokenization and soundex codes
 - Charin Polpanumas - classification and benchmarking
-- Arthit Suriyawongkul - refactoring, packaging, distribution, and maintenance
+- Arthit Suriyawongkul - CI/infrastructure, documentation, refactoring and distribution
 - Lalita Lowphansirikul - documentation
 - Pattarawat Chormai - benchmarking
 - Peerat Limkonchotiwat
-- Thanathip Suntorntip - nlpO3 maintenance, Rust Developer
+- Thanathip Suntorntip - nlpO3 maintenance, Rust developer
 - Can Udomcharoenchaikit - documentation and codes
 
 ## Sponsors
