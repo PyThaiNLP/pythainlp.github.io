@@ -18,7 +18,7 @@ Hugging Face: [https://huggingface.co/pythainlp](https://huggingface.co/pythainl
 
 A Fast and Accurate Neural Thai Word Segmenter
 
-- Owner and Maintainancer: [Pattarawat Chormai](https://github.com/heytitle)
+- Owner and Maintainancer: [Pattarawat Chormai](https://github.com/p16i)
 - Website: [pythainlp.github.io/attacut](https://pythainlp.github.io/attacut/)
 - GitHub: [PyThaiNLP/attacut](https://github.com/PyThaiNLP/attacut)
 
@@ -29,7 +29,7 @@ A Fast and Accurate Neural Thai Word Segmenter
 
 This repository is a collection of almost all Thai tokenisers that are publicly available. Having this collection allows us to try each algorithm as ease via Docker.
 
-- Owner and Maintainancer: [Pattarawat Chormai](https://github.com/heytitle)
+- Owner and Maintainancer: [Pattarawat Chormai](https://github.com/p16i)
 - GitHub: [PyThaiNLP/docker-thai-tokenizers](https://github.com/PyThaiNLP/docker-thai-tokenizers)
 
 ## Lao language
@@ -57,7 +57,7 @@ lexicon for thai
 
 MudYom is a module for pre/post-processing text. It combines, aka มัด, words that should be together into one token. This process is done according to a user-defined dictionary.
 
-- Owner and Maintainancer: [Pattarawat Chormai](https://github.com/heytitle)
+- Owner and Maintainancer: [Pattarawat Chormai](https://github.com/p16i)
 - GitHub: [PyThaiNLP/mudyom](https://github.com/PyThaiNLP/mudyom)
 
 ## NLP For Thai
