@@ -6,7 +6,7 @@ Welcome to The Official PyThaiNLP Project Website.
 
 PyThaiNLP Project is an open source community for natural Language Processing project in the Thai language. We build softwares and datasets for Thai language. Our Main Project is PyThaiNLP that is a Python package for text processing and linguistic analysis on Thai language.
 
-See more about the projec: [pythainlp.org/about](https://pythainlp.org/about)
+See more about the project: [pythainlp.org/about](https://pythainlp.org/about)
 
 **See all our project at [pythainlp.org/projects/](https://pythainlp.org/projects/)**
 
