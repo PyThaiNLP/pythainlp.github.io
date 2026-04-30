@@ -4,7 +4,11 @@ layout: default
 
 Welcome to The Official PyThaiNLP Project Website.
 
-PyThaiNLP Project is an open source community for natural Language Processing project in the Thai language. We build softwares and datasets for Thai language. Our Main Project is PyThaiNLP that is a Python package for text processing and linguistic analysis on Thai language.
+PyThaiNLP Project is an open source community for natural Language Processing project in the Thai language. We build softwares and datasets for Thai language.
+
+> Open software project for Thai language processing / โครงการซอฟต์แวร์เปิดด้านการประมวลผลภาษาไทย
+
+Our Main Project is PyThaiNLP that is a Python package for text processing and linguistic analysis on Thai language.
 
 See more about the project: [pythainlp.org/about](https://pythainlp.org/about)
 
@@ -30,6 +34,8 @@ See more about the project: [pythainlp.org/about](https://pythainlp.org/about)
 | --- | ----------- |
 | [![VISTEC-depa Thailand Artificial Intelligence Research Institute](https://airesearch.in.th/assets/img/logo/airesearch-logo.svg)](https://airesearch.in.th/)   | Since 2019, our contributors Korakot Chaovavanich and Lalita Lowphansirikul have been supported by [VISTEC-depa Thailand Artificial Intelligence Research Institute](https://airesearch.in.th/).                 |
 | [![MacStadium](https://i.imgur.com/rKy1dJX.png)](https://www.macstadium.com)   | We get support free Mac Mini M1 from [MacStadium](https://www.macstadium.com) for doing Build CI.                  |
+
+See more: [https://github.com/PyThaiNLP/pythainlp/blob/dev/SPONSORS.md](https://github.com/PyThaiNLP/pythainlp/blob/dev/SPONSORS.md)
 
 
 <div align="center">
