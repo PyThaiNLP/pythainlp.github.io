@@ -2,13 +2,12 @@
 layout: default
 ---
 
+
+![PyThaiNLP 10th Anniversary](https://pythainlp.org/branding/10thpythainlp/cover.jpg)
+
 Welcome to The Official PyThaiNLP Project Website.
 
 PyThaiNLP Project is an open source community for natural Language Processing project in the Thai language. We build softwares and datasets for Thai language.
-
-> Open software project for Thai language processing / โครงการซอฟต์แวร์เปิดด้านการประมวลผลภาษาไทย
-
-Our Main Project is PyThaiNLP that is a Python package for text processing and linguistic analysis on Thai language.
 
 See more about the project: [pythainlp.org/about](https://pythainlp.org/about)
 
@@ -27,6 +26,11 @@ See more about the project: [pythainlp.org/about](https://pythainlp.org/about)
 - Peerat Limkonchotiwat
 - Thanathip Suntorntip - nlpO3 maintenance, Rust developer
 - Can Udomcharoenchaikit - documentation and codes
+
+**Special Members**
+
+- Phasathorn Suwansri
+- Pakin Siwathammarat
 
 ## Sponsors
 
