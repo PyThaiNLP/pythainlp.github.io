@@ -11,9 +11,13 @@ PyThaiNLP Project is an open source community for natural Language Processing pr
 
 See more about the project: [pythainlp.org/about](https://pythainlp.org/about)
 
+**See PyThaiNLP 10th Anniversary (Thai language)**: [pythainlp.org/10yearspythainlp/](https://pythainlp.org/10yearspythainlp/)
+
+
 **See all our project at [pythainlp.org/projects/](https://pythainlp.org/projects/)**
 
 **สำหรับภาษาไทย คุณสามารถเยี่ยมชมเว็บภาษาไทยของ PyThaiNLP ได้ที่ [pythainlp.org/th/](https://pythainlp.org/th/)**
+
 
 
 ## Development Lead
