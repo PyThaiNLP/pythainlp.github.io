@@ -22,7 +22,7 @@ Read more details at: [https://github.com/PyThaiNLP/PyThaiTTS/tree/v1.0.0](https
 
 MakHamTTS (มะขาม) is a TTS model trained on a synthetic voice dataset. It shares the same codebase with FastThaiG2P, a Kokoro-82M-based model, but is trained on over 100 hours of voice data featuring both female and male voices. In addition, we distilled the Kokoro-82M model following [Paradee: Distilling Kokoro-82M into an 8M-Parameter Single-Voice Text-to-Speech Model](https://arxiv.org/abs/2610.06817), reducing the model size to just 8.07 MB (name as makham_paradee). It is well-suited for basic tasks, produces decent voice quality, runs faster than ~45x Real-Time, and requires fewer resources than FastThaiG2P or original Kokoro-82M-based models.
 
-* **Online demo**: https://github.wannaphong.com/MakHamTTS/webdemo/
+* **Online demo**: [https://github.wannaphong.com/MakHamTTS/webdemo/](https://github.wannaphong.com/MakHamTTS/webdemo/)
 * **Model Repository**: [pythainlp/MakHamTTS](https://huggingface.co/pythainlp/MakHamTTS)
 * **Dataset Repository**: [pythainlp/MakHamTTS-dataset](https://huggingface.co/datasets/pythainlp/MakHamTTS-dataset)
 * **Source Code & Training Suite**: [GitHub: wannaphong/MakHamTTS](https://github.com/wannaphong/MakHamTTS)
@@ -45,7 +45,7 @@ PyThaiTTS v1.0.0 มีอะไรใหม่:
 
 MakHamTTS (มะขาม) เป็นโมเดล TTS ที่สร้างจากชุดข้อมูลเสียงที่สังเคราะห์ขึ้นมา โดยใช้โค้ดเดียวกันกับ FastThaiG2P โมเดลบนฐาน Kokoro-82M แต่เทรนด้วยข้อมูลเสียงที่มีขนาดใหญ่กว่า 100 ชั่วโมง มีทั้งเสียงผู้หญิงกับเสียงผู้ชาย นอกจากนั้น เราได้ย่อขนาดโมเดล  Kokoro-82M ตาม [Paradee: Distilling Kokoro-82M into an 8M-Parameter Single-Voice Text-to-Speech Model](https://arxiv.org/abs/2610.06817) จนได้โมเดลขนาดเพียง 8.07 MB ชื่อว่า makham_paradee เหมาะสมกับงานพื้นฐานและเสียงอยู่ในระดับพอใช้ได้ เร็วกว่า ~45x Real-Time และใช้ทรัพยากรน้อยกว่า FastThaiG2P หรือโมเดลบนฐาน Kokoro-82M
 
-- **Online demo**: https://github.wannaphong.com/MakHamTTS/webdemo/
+- **Online demo**: [https://github.wannaphong.com/MakHamTTS/webdemo/](https://github.wannaphong.com/MakHamTTS/webdemo/)
 - **Model Repository**: [pythainlp/MakHamTTS](https://huggingface.co/pythainlp/MakHamTTS)
 - **Dataset Repository**: [pythainlp/MakHamTTS-dataset](https://huggingface.co/datasets/pythainlp/MakHamTTS-dataset)
 - **Source Code & Training Suite**: [GitHub: wannaphong/MakHamTTS](https://github.com/wannaphong/MakHamTTS)
